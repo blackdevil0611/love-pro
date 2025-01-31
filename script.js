@@ -4,7 +4,7 @@ var love = setInterval(function(){
 	var r_left = Math.floor(Math.random() * 100) + 1;
 	var r_bg = Math.floor(Math.random() * 25) + 100;
   var r_time = Math.floor(Math.random() * 5) + 5;
-  $('.bg_heart').append("<div class='heart' style='width:"+r_size+20"px;height:"+r_size+20"px;left:"+r_left+"%;background:rgba(255,"+(r_bg-25)+","+r_bg+",1);-webkit-animation:love "+r_time+"s ease;-moz-animation:love "+r_time+"s ease;-ms-animation:love "+r_time+"s ease;animation:love "+r_time+"s ease'></div>");
+  $('.bg_heart').append("<div class='heart' style='width:"+r_size+"px;height:"+r_size+"px;left:"+r_left+"%;background:rgba(255,"+(r_bg-25)+","+r_bg+",1);-webkit-animation:love "+r_time+"s ease;-moz-animation:love "+r_time+"s ease;-ms-animation:love "+r_time+"s ease;animation:love "+r_time+"s ease'></div>");
   
   $('.bg_heart').append("<div class='heart' style='width:"+(r_size-10)+"px;height:"+(r_size-10)+"px;left:"+(r_left+r_num)+"%;background:rgba(255,"+(r_bg-25)+","+(r_bg+25)+",1);-webkit-animation:love "+(r_time+5)+"s ease;-moz-animation:love "+(r_time+5)+"s ease;-ms-animation:love "+(r_time+5)+"s ease;animation:love "+(r_time+5)+"s ease'></div>");
   
@@ -12,8 +12,8 @@ var love = setInterval(function(){
 },500);
 
 var i = 0;
-var txt1 = "Heyy SweetHeart.....!  <<               vaii I wan't to say something special to you. <<<                So , Please read everything carefully...!                                                                           > When I saw you for the first time < You seemed me like my future bestest bestfriend.  <<            As the days goes < you get closer to me....! <<                           I don't know the reason why your thoughts always resonates inside my mind...!                                                     > Everything about you is always intresting for me...!                     << I am somewhat nervous Because I have said this earlier to but i want to make it memorable ha this isnt the og one but in this special week of valentine today is the special day valiant day so i wana say an ask few things...!                                                     > I Love my Parents so much than anything else in this world....!                    << Now You are the only person  whom I love equally with my parents....!                                                             >I Love U>Mrs vaishnavi Somnath Dhotre majhi vaii gunni kuka and firstly my pora .....!                 <<i want to ask that will u be my valentine...!";
-var speed = 40;
+var txt1 = "Heyy SweetHeart.....!  <<               vaii I wan't to say something special to you. <<<                So , Please read everything carefully...!                                                                           > When I saw you for the first time < You seemed me like my future bestest bestfriend.  <<                  As the days goes < you get closer to me....! <<                           I don't know the reason why your thoughts always resonates inside my mind...!                                                     > Everything about you is always intresting for me...!                     << I am somewhat nervous Because I have said this earlier to but i want to make it memorable ha this isnt the og one but in this special week of valentine today is the special day valiant day so i wana say an ask few things...!                                                     > I Love my Parents so much than anything else in this world....!                    << Now You are the only person  whom I love equally with my parents....!                                                             >I Love U <Mrs vaishnavi Somnath Dhotre majhi vaii gunni kuka and firstly my pora                 <<<< i want to ask that will u be my valentine...!";
+var speed = 50;
 typeWriter();
 function typeWriter() {
   if (i < txt1.length) {        
